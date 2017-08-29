@@ -27,7 +27,7 @@ function start() {
     .prompt({
       name: "listOrBuy",
       type: "list",
-      message: "Would you like to see the Bamazon [LIST] first or immediately start to [BUY]?",
+      message: "Would you like to see the Bamazon [LIST] first or immediately start to [BUY] if you know the ID?",
       choices: ["LIST", "BUY"]
     })
     .then(function(answer) {

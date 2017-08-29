@@ -24,11 +24,12 @@ Paste the script into your Terminal window. Press the return key when prompted.
 Node.js: NOTE: make sure you have brew installed before you run this.
 This runtime environment has quickly become a standard for coding back-end programs. Your code will run on Node throughout most of the course.
 Just run this command in your Terminal window: brew install node
-Type node –v in Terminal, and hit return. If Terminal returns a version number, then you’ve successfully installed Node.
+Type 'node –v' in Terminal, and hit return. If Terminal returns a version number, then you’ve successfully installed Node.
 
 mySQL
 Follow the instructions to download the mySQL workbench.
 When the mySQL is working, you should get a server that shows a green server status. If the server status is off, make sure to turn on the server which varies depending on the system
+
 ![Alt text](/images/serverGreen.png?raw=true)
 
 npm
@@ -36,3 +37,23 @@ Make sure to typ in "npm init" command to initial usage of node package manager.
 eg. npm install --save mysql inquirer
 
 RUNNING THE TEST
+You should first make the database and input the information inside.
+
+![Alt text](/images/database.png?raw=true)
+
+You should create a Javascript file that you can run with Node to order items available on Bamazon. When you run it, it could list items and allow you to buy. Then you can but items according to ID and stock quantity in which the quantity decreases by the amount input the user.
+
+![Alt text](/images/terminallist.png?raw=true)
+
+![Alt text](/images/buyItems.png?raw=true)
+
+Before
+![Alt text](/images/before.png?raw=true)
+
+After
+![Alt text](/images/after.png?raw=true)
+
+If there isn't enough of the quantity, the order should not go through.
+
+LOOKING BACK
+The most frustrating part about this assignment for me was the syntax in the database since one semi-colon could make or break your code.
